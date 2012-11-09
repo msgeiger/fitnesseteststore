@@ -43,7 +43,6 @@ public class FetchFitnesseTests {
         int i = 1;
         String backslash = "\\\\";
         String testPath;
-        //setPrePend("c:.github.Xebium-Sentry.FitNesseRoot.SentryDataSystems.");
         
         for (File file : files) {
             if (file.isDirectory()) {
