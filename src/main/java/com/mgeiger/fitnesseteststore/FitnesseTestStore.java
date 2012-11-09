@@ -89,6 +89,7 @@ class FitnesseTestStore {
             dbh.setConnection();
             Statement statement = connection.createStatement();
             /*
+             * TODO: Move into README
             statement.setQueryTimeout(30);  // set timeout to 30 sec.
             statement.executeUpdate("drop table if exists xebium_test");
             statement.executeUpdate("create table xebium_test (id integer, test_path string, application_id integer, created_at TIMESTAMP)");
@@ -99,7 +100,6 @@ class FitnesseTestStore {
                 statement.executeUpdate("insert into xebium_test values(" + t + ", '" + tests.get(t) + "', NULL, current_timestamp)");
                 ++t;
             }
-            * 
             */
 
             ResultSet rs = statement.executeQuery("select * from xebium_test");
