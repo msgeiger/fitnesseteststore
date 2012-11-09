@@ -32,7 +32,7 @@ public class FetchFitnesseTests {
     }
     
     public static void getFitnesseTests() {
-        dir = ((dir != null) ? dir : "c:\\<FITNESSE DIR>\\");
+        dir = ((dir != null) ? dir : "c:\\<FITNESSE TESTS TARGET DIR>\\");
         File currentDir = new File(dir);
         generateList(currentDir);
     }
