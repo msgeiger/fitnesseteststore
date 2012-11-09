@@ -54,7 +54,7 @@ public class FetchFitnesseTests {
                 }
                 generateList(file);
             } else {
-                //System.out.println(file.toString());
+                // DO NOTHING
             }
         }
 
