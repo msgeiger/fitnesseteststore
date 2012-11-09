@@ -79,7 +79,7 @@ class FitnesseTestStore {
 
         // parse fitness tests from Xebium project
         FetchFitnesseTests testListObj = new FetchFitnesseTests();
-        String dir = "c:\\github\\Xebium-Sentry\\FitNesseRoot\\SentryDataSystems\\SentinelSuite\\";
+        String dir = "c:\\<FITNESSE TESTS DIR>\\";
         File currentDir = new File(dir);
         List tests = FetchFitnesseTests.generateList(currentDir);
 

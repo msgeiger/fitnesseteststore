@@ -32,7 +32,7 @@ public class FetchFitnesseTests {
     }
     
     public static void getFitnesseTests() {
-        dir = ((dir != null) ? dir : "c:\\github\\Xebium-Sentry\\FitNesseRoot\\SentryDataSystems\\SentinelSuite\\");
+        dir = ((dir != null) ? dir : "c:\\<FITNESSE DIR>\\");
         File currentDir = new File(dir);
         generateList(currentDir);
     }
