@@ -28,7 +28,7 @@ public class FetchFitnesseTests {
     }
     
     public static String getPrePend() {
-        return prePend != null ? prePend : "c:.github.Xebium-Sentry.FitNesseRoot.SentryDataSystems.";
+        return prePend != null ? prePend : "C:<REMOVE CHARACTERS IN TEST PATH>";
     }
     
     public static void getFitnesseTests() {
