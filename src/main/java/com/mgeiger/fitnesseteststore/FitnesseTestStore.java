@@ -92,7 +92,7 @@ class FitnesseTestStore {
         try {
             FitnesseTestStore dbh = new FitnesseTestStore();
             //dbh.setConnection();
-            Connection connect = dbh.getConnection();
+            dbh.getConnection();
 
             Statement statement = connection.createStatement();
             /*
